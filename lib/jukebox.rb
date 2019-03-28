@@ -51,14 +51,14 @@ puts "Please enter a command:"
 input = gets.chomp
 until input == "exit"
   if input != "exit"
-    case options 
-      when "list"
-        list(songs)
-      when "play"
+    case user_input
+        when "list"
+          list(songs)
+        when "play"
           play(songs)
-      when "help"
+        when "help"
           help
-      end 
+        end
         puts "Please enter a command"
         input = gets.chomp
       end 
