@@ -36,6 +36,7 @@ elsif input = (index + 1 )
   puts "Playing #{song}"
 else 
   "Invalid input, please try again."
+  break
 end 
 end 
 end 
