@@ -51,7 +51,7 @@ puts "Please enter a command:"
 input = gets.chomp
 until input == "exit"
   if input != "exit"
-    case options 
+    case input 
       when "list"
         list(songs)
       when "play"
