@@ -61,9 +61,6 @@ while user_input != exit
 		when user_input == "list"
 			list # run liste method 
 		end 
-		
-
-else
-	exit #run exit program , says goodbye and leaves loop
-end
+else 
+  exit_jukebox
 end 
