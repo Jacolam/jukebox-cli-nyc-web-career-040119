@@ -61,7 +61,7 @@ while user_input != exit
 		when user_input == "list"
 			list # run liste method 
 		end 
-else 
+end 
   exit_jukebox
 end 
 end 
