@@ -58,7 +58,8 @@ until input == "exit"
         play(songs)
         when "help"
           help
-        else 
+        end 
+        puts ""
 
 
 
