@@ -50,7 +50,12 @@ help
 puts "Please enter a command:"
 input = gets.chomp
 until input == "exit"
-case options 
+  if input != "exit"
+    case options 
+    when "list"
+      list(songs)
+      when "play"
+        
 
 
 
