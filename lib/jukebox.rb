@@ -64,8 +64,9 @@ until input == "exit"
       end 
     end 
   
-
-
+if input == "exit"
+  exit_jukebox
+end 
 
 end 
 
