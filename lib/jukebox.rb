@@ -57,9 +57,9 @@ while user_input != exit
 		when user_input == "help"
 			help # run help method
 		when user_input == "play"
-			play # run play method
+			play(songs)
 		when user_input == "list"
-			list # run liste method 
+			list(songs)
 		end 
 end 
   exit_jukebox
