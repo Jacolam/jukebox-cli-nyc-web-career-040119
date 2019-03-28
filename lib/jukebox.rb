@@ -55,7 +55,10 @@ until input == "exit"
     when "list"
       list(songs)
       when "play"
-        
+        play(songs)
+        when "help"
+          help
+        else 
 
 
 
