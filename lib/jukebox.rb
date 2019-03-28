@@ -37,29 +37,11 @@ elsif input = (index + 1 )
 else 
   "Invalid input, please try again."
 end 
+end 
 
 
 def exit_jukebox
 puts "Goodbye"
 end 
 
-# def run(songs)
-# help # will run help method from before
-
-# 	Puts "Please enter a command:"
-# 	user_input = gets.chomp
-# while user_input != exit
-# 	case choice
-# 		when user_input == "help"
-# 			help # run help method
-# 		when user_input == "play"
-# 			play(songs)
-# 		when user_input == "list"
-# 			list(songs)
-# 		else 
-# 		  exit_jukebox
-# end 
-#   exit_jukebox
-# end 
-# end 
 
