@@ -60,7 +60,8 @@ while user_input != exit
 			play(songs)
 		when user_input == "list"
 			list(songs)
-		end 
+		else 
+		  exit_jukebox
 end 
   exit_jukebox
 end 
