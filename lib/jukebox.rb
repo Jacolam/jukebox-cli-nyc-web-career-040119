@@ -65,4 +65,5 @@ while user_input != exit
 
 else
 	exit #run exit program , says goodbye and leaves loop
+end
 end 
