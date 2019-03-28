@@ -47,7 +47,7 @@ puts "Goodbye"
 end 
 
 def run(songs)
-
+binding.pry
 help # will run help method from before
 
 	Puts "Please enter a command:"
