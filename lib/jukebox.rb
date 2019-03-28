@@ -59,7 +59,11 @@ until input == "exit"
         when "help"
           help
         end 
-        puts ""
+        puts "Please enter a command"
+        input = gets.chomp
+      end 
+    end 
+  
 
 
 
